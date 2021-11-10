@@ -5,14 +5,64 @@
 	
 		<title>Images</title>
 		<meta charset="utf-8">
-		<h1>Sveiki atvykę į paveiksliukų puslapį!</h1>
+		<style>
+			*{
+				background-color:aqua;
+				box-sizing: border-box;
+			}
+			body{
+				padding:10px;
+				margin:0;
+			}
+			header img{
+				width:200px;
+				background-color:cornsilk;
+				padding:0;
+				margin:-10px 0 0 -10px;
+			}
+			nav{
+				border: 2px dotted black;
+				padding:30px 0 30px 40px;
+				margin:-100px 0 0 200px;
+				font-size:30px;
+			}
+			body main{
+				padding:10px 0 0 0;
+				margin:0;
+			}
+			footer p{
+				padding:0 0 0 100px;
+				margin:0;
+				border: 1px solid black;
+			}
+			a:link, a:visited{
+				color:darkorchid;
+				text-decoration:none;
+			}
+			a:hover, a:active{
+				text-decoration:underline;
+			}
+
+			body main h1{
+				margin:0;
+				padding:10px;
+				border: 3px solid black;
+				background-color:mediumslateblue;
+			}
+			body main p{
+				margin:0;
+				border: 3px solid purple;
+				background-color:mintcream;
+			}
+
+		</style>
 	</head>
 	
 	<body>
 		<!-- Header -->
 		<header>
 			<a href="index.htm">
-				<img src="./images/logo.webp" style="width:100px" alt="Logo picture">
+				<img src="./images/logo.webp" alt="Logo picture">
 			</a>
 		</header>
 		
@@ -24,12 +74,9 @@
 			<a href="cheatsheet.htm"> Cheatsheet </a>
 		</nav>
 		
-		<nav id="menu.side">
-		</nav>
-		
 		<!-- Content -->
 		<main>
-
+			<h1>Sveiki atvykę į paveiksliukų puslapį!</h1>
 			<h3>Gyvūnėliai:</h3>
 			<p>
 				<img src="https://cdn.pixabay.com/photo/2021/10/26/07/41/christmas-6742868__340.png" style="height:200px">
@@ -41,7 +88,7 @@
 				<img src="https://cdn.pixabay.com/photo/2021/10/11/22/08/halloween-6701942__340.png" style="height:200px">
 				<img src="https://cdn.pixabay.com/photo/2021/10/24/21/27/animal-6739347__340.png" style="height:200px">
 			</p>
-			<p><a href="#">Back to top</a></p>
+			<p><a href="#" style="background-color:mintcream;">Back to top</a></p>
 		</main>
 		
 		<!-- Footer -->

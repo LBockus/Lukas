@@ -5,6 +5,57 @@
 	<head>
 		<title>Lipsum</title>
 		<meta charset = "utf-8">
+		<style>
+			*{
+				background-color:aqua;
+				box-sizing: border-box;
+			}
+			body{
+				padding:10px;
+				margin:0;
+			}
+			header img{
+				width:200px;
+				background-color:cornsilk;
+				padding:0;
+				margin:-10px 0 0 -10px;
+			}
+			nav{
+				border: 2px dotted black;
+				padding:30px 0 30px 40px;
+				margin:-100px 0 0 200px;
+				font-size:30px;
+			}
+			body main{
+				padding:10px 0 0 0;
+				margin:0;
+			}
+			footer p{
+				padding:0 0 0 100px;
+				margin:0;
+				border: 1px solid black;
+			}
+			a:link, a:visited{
+				color:darkorchid;
+				text-decoration:none;
+			}
+			a:hover, a:active{
+				text-decoration:underline;
+			}
+
+			body main h1{
+				margin:0;
+				padding:10px;
+				border: 3px solid black;
+				background-color:mediumslateblue;
+			}
+			body main p{
+				margin:0;
+				border: 3px solid purple;
+				background-color:mintcream;
+			}
+
+		</style>
 	</head>
 	
 	<body>
@@ -13,7 +64,7 @@
 		
 		<header>
 			<a href = "index.htm">
-				<img src = "./images/logo.webp" style = "width:100px" alt = "Logo image">
+				<img src = "./images/logo.webp" alt = "Logo image">
 			</a>
 		</header>
 
@@ -26,8 +77,6 @@
 			<a href = "lipsum.htm"> Lipsum </a>
 			<a href = "cheatsheet.htm"> Cheatsheet </a>
 		</nav>
-		<nav id = "menu.side">
-		</nav>		
 		
 		<!-- Content -->
 		
@@ -48,7 +97,7 @@
 			<p>
 				Fusce rutrum consectetur aliquam. Mauris eu augue fermentum, blandit neque ut, hendrerit elit. Nullam ornare nulla eget porttitor gravida. Mauris suscipit mauris eget est lacinia, ac finibus mauris sodales. Fusce ipsum metus, fermentum id porta ut, tempor in augue. Aenean aliquet ac magna eget posuere. Etiam luctus nulla ac dui viverra porta. Sed erat nisi, mattis in lobortis a, pretium quis metus. Vivamus sit amet sapien nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam auctor a dolor vel bibendum. Suspendisse rutrum sit amet enim sed gravida. Praesent ut consequat lectus, nec pulvinar erat. Cras hendrerit nec tellus finibus porta. Nam id tellus malesuada, rhoncus eros et, mattis diam. Phasellus id erat posuere, tincidunt mauris ut, blandit eros.
 			</p>
-			<p><a href = "#">Back to top</a></p>
+			<p><a href = "#" style="background-color:mintcream;">Back to top </a></p>
 		</main>
 		
 		<!-- Footer -->
